@@ -77,26 +77,41 @@
         case "guava":
             echo "Your favorite fruit is $fruit";
             break;
-        case "apple":      
-            echo" Your favorite fruit is $fruit";
+        case "apple":
+            echo " Your favorite fruit is $fruit";
             break;
         default:
             echo "We don't know the answer!";
     }
     $i = 1;
     while ($i <= 5) {
-         echo "The number is " . $i . "</br>";
-         $i++;
+        echo "The number is " . $i . "</br>";
+        $i++;
     }
     $a = 1;
     do {
         $a++;
         echo "The number is " . $a . "</br>";
-    }
-    while ($a <= 10);
+    } while ($a <= 10);
 
-    for ($x =0; $x <= 5; $x++) {
+    for ($x = 0; $x <= 5; $x++) {
         echo "The number is " . $x . "</br>";
+    }
+
+    $fruits = array("apple", "banana", "guava");
+    foreach ($fruits as $fruit) {
+        echo $fruit;
+        echo "<br/>";
+    }
+    function add($num1, $num2) {
+        return $num1 + $num2;
+    }
+
+    $students = array('Prince' => 22, "Allan" => 49, "Jocelyn" => 21 );
+
+    foreach ($students as $key => $value) {
+        echo "The age of $key is $value";
+        echo "<br/>";
     }
 
 
