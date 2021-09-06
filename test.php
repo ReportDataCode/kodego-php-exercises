@@ -1,5 +1,25 @@
 <?php
+require "Product.php";
 require "Rectangle.php";
+
+$product = new Product();
+
+$product->title = "Engagement Photo Session";
+$product->price = 1000;
+$product->quantity = 10;
+
+
+echo $product->setProduct();
+echo "<br/>";
+echo "<br/>";
+
+$product2 = new Product();
+$product2->title = "Wedding Day Photo Coverage";
+$product2->price = 20000;
+$product2->quantity = 2;
+echo $product2->setProduct();
+
+
 $object = new Rectangle;
 $object2 = new Rectangle;
 echo $object->length;
