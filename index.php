@@ -25,14 +25,23 @@
     echo $firstName . " " . " says" .  $message;
     echo "<br>";
     echo $x + $y;
+    echo "<br>";
 
     function test()
     {
         $x = 5;
         echo $x;
+        echo "<br>";
+        $quotation = "Good Job For Perserving another day andrew!!";
+        echo $quotation;
+        echo str_word_count($quotation);
     }
     test();
+    echo "<br>";
+    echo strlen($firstName);
 
+    //2:02:48
+    //https://www.youtube.com/watch?v=KEPf9Dsx-uM&t=4890s
     ?>
 
 </body>
