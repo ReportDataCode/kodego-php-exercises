@@ -25,11 +25,11 @@ $firstNameError = $lastNameError = $emailError = $genderErr = "";
 ?>
 
 
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_self"])?>" method="POST">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_self"])?> method="POST">
     <div class="row">
   <label for="firstName" class="col-md-4 col-form-label col-form-label-lg">First Name:</label>
   <div class="col-md-8">
-    <input type="input" class="form-control form-control-lg" id="firstName" placeholder="Prince">
+    <input type="input" class="form-control form-control-lg" id="firstName" placeholder="Angelo">
   </div>
   
   <div class="row">
